@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase": "^9.22.1",
+    "node": "^20.2.0"
+  }
+}

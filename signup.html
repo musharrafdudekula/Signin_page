@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="app.js"></script> 
+</head>
+<body>
+    <div id="container">
+        <h1>Registeration Page</h1>
+        <br>
+        <div class="form">
+            <div class="firstname">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" placeholder="Ex: John">
+            </div>
+            <br>
+            <div class="lastname">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" placeholder="Ex: Doe">
+            </div>
+            <br>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Ex: johndoe@abc.com">
+            </div>
+            <br>
+            <div class="password">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="********">
+            </div>
+            <br>
+            <button id="submit-btn" type="submit" onclick="signUp()">Sign Up</button>
+            <p class="member">Already a member?</p> 
+            <span><a href="login.html">Login Here!</a></span>
+        </div>
+    </div>
+</body>
+</html>
