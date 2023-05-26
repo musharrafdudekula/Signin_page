@@ -13,22 +13,26 @@
 </head>
 <body>
     <div id="container">
-        <h1>Login Page</h1>
+        <h1>Login To Your Account</h1>
         <br>
         <div class="form">
             <div class="email">
-                <label for="email">Email:</label>
+                <label for="email">Email</label>
                 <input type="text" placeholder="Ex: johndoe@abc.com" id="email">
             </div>
             <br>
             <div class="password">
-                <label for="password">Password:</label>
+                <label for="password">Password</label>
                 <input type="password" placeholder="********" id="password">
             </div>
             <br>
-            <button id="submit-btn" type="submit" onclick="signIn()">Sign In</button>
-            <p class="member">Don't have an account?</p> 
-            <span><a href="signup.html">Register Here!</a></span>
+            <div>
+                <input type="checkbox" />
+            </div>
+            <br>
+            <button id="submit-btn" type="submit" onclick="signIn()">Login to Your Account</button>
+            <p class="member">Don't Have An Account?</p> 
+            <span><a href="signup.html">Sign Up!</a></span>
         </div>
     </div>
 </body>

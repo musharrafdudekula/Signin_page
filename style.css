@@ -25,19 +25,12 @@ body {
 
 h1 {
     padding-top: 10px;
-    text-decoration: underline;
     text-align: center;
-    color: #3aa5ed;
-}
-
-label {
-    color: #3aa5ed;
 }
 
 .form {
     width: 400px;
-    border-radius: 5px;
-    background-color: black;
+    border-radius: 5px;;
     /* height:fit-content;  */
     padding: 5px 10px;
 }
@@ -61,7 +54,6 @@ input {
 
 .member {
     padding: 10px 5px 0 10px;
-    color: white;
 }
 
 #submit-btn {
@@ -71,7 +63,6 @@ input {
     padding: 10px 8px;
     color: white;
     font-weight: bolder;
-    text-transform: uppercase;
     cursor: pointer;
     margin: 9px 0px;
 }
